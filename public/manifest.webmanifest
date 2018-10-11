@@ -1,6 +1,6 @@
 {
-  "name"              : "2 Associes' Meteor Boilerplate",
-  "short_name"        : "PWA Meteor",
+  "name"              : "Shell",
+  "short_name"        : "Shell",
   "description"       : "A boilerplate for Meteor projects using Sass, Font Awesome and Bootstrap 4.",
   "start_url"         : "/?utm_source=homescreen",
   "display"           : "standalone",

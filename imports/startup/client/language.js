@@ -9,7 +9,7 @@ import 'moment/locale/fr-ca'
 
 const getUserLanguage = function () {
   // Put here the logic for determining the user language
-  return 'fr-CA'
+  return 'en-CA'
 }
 
 Meteor.startup(() => {
