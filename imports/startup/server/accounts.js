@@ -4,16 +4,6 @@ import { Meteor } from 'meteor/meteor'
 Meteor.startup(() => {
   // Add Facebook configuration entry
 
-  ServiceConfiguration.configurations.update(
-    { service: 'facebook' },
-    {
-      $set: {
-        appId: 'XXXXXXXXXXXXXXXXXXXX',
-        secret: 'XXXXXXXXXXXXXXXXXXXX'
-      }
-    },
-    { upsert: true }
-  )
 
   // Add GitHub configuration entry
   /*

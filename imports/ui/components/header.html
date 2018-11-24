@@ -55,16 +55,16 @@
             </ul>
           </li>
         </ul>
-        <form class="form-inline navigations-main-navbar-form" role="search">
+        <!-- <form class="form-inline navigations-main-navbar-form" role="search">
           <input type="text" class="form-control ml-xl-4 navigations-main-navbar-form-control" placeholder="{{_ 'header.navbarSearchPlaceholder' }}">
           <button type="submit" class="btn btn-outline-success ml-xl-1 navigations-main-navbar-form-button">{{_ 'header.navbarSearchButton' }}</button>
-        </form>
+        </form> -->
         <ul class="navbar-nav ml-auto navigations-main-navbar-list">
-          <li class="navbar-item navigations-main-navbar-item">
+          <!-- <li class="navbar-item navigations-main-navbar-item">
             <a class="nav-link navigations-main-navbar-link" href="https://github.com/2Associes/meteor-boilerplate">
               GitHub
             </a>
-          </li>
+          </li> -->
           {{#if currentUser}}
           <li class="navbar-item navigations-main-navbar-item dropdown navigations-main-navbar-dropdown">
             <a id="current-user-username" href="#" class="nav-link dropdown-toggle navigations-main-navbar-link navigations-main-navbar-link-dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -100,9 +100,9 @@
           <li class="navbar-item navigations-main-navbar-item">
             {{> atNavButton}}
           </li>
-          <li class="navbar-item navigations-main-navbar-item">
+          <!-- <li class="navbar-item navigations-main-navbar-item">
             {{> languageSwitcher}}
-          </li>
+          </li> -->
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

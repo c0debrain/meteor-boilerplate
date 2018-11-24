@@ -10,13 +10,13 @@ Meteor.startup(() => {
 
     _.each(_.range(3), () => {
       const randomText = faker.lorem.paragraph()
-      const randomI18nEnText = faker.lorem.paragraph()
+      const randomI18nFrText = faker.lorem.paragraph()
 
       Paragraphs.insert({
         text: randomText,
         i18n: {
-          'en-CA': {
-            text: randomI18nEnText
+          'fr-CA': {
+            text: randomI18nFrText
           }
         },
         createdAt: new Date(timestamp)
@@ -62,7 +62,7 @@ Meteor.startup(() => {
         username: user.username,
         profile: {
           name: user.name,
-          isDummy: true
+          isDummy: false
         }
       })
 

@@ -2,7 +2,7 @@ import { TAPi18n } from 'meteor/tap:i18n'
 import SimpleSchema from 'simpl-schema'
 import Schemas from '../schemas'
 
-export const Paragraphs = new TAPi18n.Collection('paragraphs', { base_language: 'fr-CA' })
+export const Paragraphs = new TAPi18n.Collection('paragraphs', { base_language: 'en-CA' })
 
 Schemas.Paragraph = new SimpleSchema({
   _id: {
